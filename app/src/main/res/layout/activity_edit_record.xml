@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    tools:context=".ui.EditRecordActivity">
+
+    <TextView
+        android:id="@+id/display_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/InformAgent"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16sp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="@string/AddName"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_textview"/>
+
+
+
+    <EditText
+        android:id="@+id/personPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:hint="@string/AddPrice"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_textview"/>
+
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Update"
+        android:layout_below="@+id/personPhone"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_textview"
+        />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_button"
+        android:text="@string/Delete"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

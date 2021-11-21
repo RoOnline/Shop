@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">магазин</string>
+    <string name="Agent">Список со всей информацией</string>
+    <string name="AddAgent">Добавьте товар</string>
+    <string name="AddInfo">Обновление информаций</string>
+    <string name="AddName">Введите название</string>
+    <string name="AddPrice">Введите цену</string>
+    <string name="Add">Добавить</string>
+    <string name="InformAgent">Подробная информация</string>
+    <string name="Update">Обновить товар</string>
+    <string name="Delete">Удалить товар</string>
+</resources>
